@@ -3,3 +3,9 @@ init:
 
 test:
 	nosetests tests
+
+check:
+	pylint sample
+
+run:
+	python -m sample.main
